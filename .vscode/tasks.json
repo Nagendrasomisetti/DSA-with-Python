@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile and Run Python (Windows)",
+            "type": "shell",
+            "command": "cmd.exe",
+            "args": [
+                "/c",
+                "python -m py_compile demo.py && python demo.py < input.txt > output.txt"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        }
+    ]
+}

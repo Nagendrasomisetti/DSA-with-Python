@@ -1,0 +1,6 @@
+Enter the number of rows: You entered: 5
+*****
+*****
+*****
+*****
+*****
